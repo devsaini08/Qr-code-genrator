@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/digital-art-with-city-landscape-architecture_23-2151065706.jpg?t=st=1717226700~exp=1717230300~hmac=488de888ab507f37d7de7210220f0dc0224943785d291ef63c9659239a8cf373&w=1380");
+}
+
+.container-main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-main {
+    /* background-color: blur(8px); */
+    /* filter: blur(8px); */
+    backdrop-filter: blur(3px);
+
+    color: rgb(0, 0, 0);
+    display: flex;
+    gap: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    /* padding-left: 20px; */
+    position: relative;
+}
+
+input {
+    width: 90%;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border: 3px solid black;
+    padding-left: 5px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 900;
+
+    position: absolute;
+    left: 6%;
+    top: 29%;
+}
+
+button {
+    width: 90%;
+    background-color: blue;
+    height: 50px;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+}
+
+/* .img{
+    height: ;
+} */
+
+#imgbox {
+    /* border: 2px solid white; */
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgbox {
+    height: auto;
+    width: 100%;
+
+}
